@@ -2,7 +2,11 @@ import { useState } from 'react'
 import StarRating  from './components/StarRating'
 
 const App = () => {
-   <StarRating numberOfStars={6}/>
+   return (
+    <div className="App">
+      <StarRating />
+    </div>
+   ) 
 }
 
 export default App
