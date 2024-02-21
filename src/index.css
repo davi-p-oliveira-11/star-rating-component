@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --active-color: #fff700;
+  --inactive-color: #000;
+  --bg-color: #F5F5F5;
+}
+
 /* Ultility classes */
 
 .d-flex {
@@ -14,4 +20,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.black-color {
+  color: var(--inactive-color);
+}
+
+.yellow-color {
+  color: var(--active-color);
+}
+
+.bg-color {
+  color: var(--bg-color);
 }
