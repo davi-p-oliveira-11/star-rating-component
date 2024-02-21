@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../index.css";
 
 const StarRating = (numberOfStars = 5) => {
-  const [rating, SetRating] = useState(0);
+  const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
 
   function handleClick(getCurrentIndex) {
@@ -19,8 +19,9 @@ const StarRating = (numberOfStars = 5) => {
   }
 
   return (
-    <div>Rate us:</div>
+    
     <div className="star-rating">
+      <h3>Rate us</h3>
       {[...Array(numberOfStars)].map((_, index) => {
         index += 1;
 
