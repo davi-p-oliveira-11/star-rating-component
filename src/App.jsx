@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import StarRating  from './components/StarRating'
 
 const App = () => {
