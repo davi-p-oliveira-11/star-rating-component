@@ -4,7 +4,7 @@ import StarRating  from './components/StarRating'
 const App = () => {
    return (
     <div className="App">
-      <StarRating />
+      <StarRating numberOfStars={6} />
     </div>
    ) 
 }
