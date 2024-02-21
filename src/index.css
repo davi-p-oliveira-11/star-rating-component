@@ -33,3 +33,7 @@
 .bg-color {
   color: var(--bg-color);
 }
+
+body {
+  background-color: var(--bg-color);
+}
